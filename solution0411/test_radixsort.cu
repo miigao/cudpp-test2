@@ -6,6 +6,7 @@
 #include "cudpp_plan_manager.h"
 #include "cudpp_radixsort.h"
 #include "kernel/radixsort_kernel.cu"
+#include "radixsort_app.cu"
 
 
 int radixSortTest()
@@ -47,5 +48,11 @@ int radixSortTest()
     free(h_keys);
     cudppDestroyPlan(plan);
 
+    return 0;
+}
+
+int main()
+{
+    radixSortTest();
     return 0;
 }
