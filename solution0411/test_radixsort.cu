@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cutil.h>
+#include "cutil.h"
 #include <math.h>
 
 #include "cudpp.h"

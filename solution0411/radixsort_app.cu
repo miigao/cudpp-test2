@@ -4,7 +4,7 @@
 #include "cudpp_scan.h"
 #include "kernel/radixsort_kernel.cu"
 
-#include <cutil.h>
+#include "cutil.h"
 #include <cstdlib>
 #include <cstdio>
 #include <assert.h>
